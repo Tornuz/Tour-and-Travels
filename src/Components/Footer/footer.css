@@ -120,11 +120,11 @@
   flex-direction: column;
   row-gap: 0.5rem;
 }
-.footer .secContent .footerCard .logoDiv .log {
+.footer .secContent .footerCard .logoDiv .logo {
   color: var(--blackColor);
   font-weight: 600;
 }
-.footer .secContent .footerCard .logoDiv .log .icon {
+.footer .secContent .footerCard .logoDiv .logo .icon {
   font-size: 25px;
   color: var(--PrimaryColor);
   margin-right: 10px;
