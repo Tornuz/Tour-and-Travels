@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="footerIntro flex">
             <div className="logoDiv">
               <a href="#" className="logo flex">
-                <MdOutlineTravelExplore className="icon" />
+                <MdOutlineTravelExplore className="icon" /> Travel.
               </a>
             </div>
 
