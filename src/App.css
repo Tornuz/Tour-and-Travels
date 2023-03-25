@@ -19,8 +19,10 @@
   --inputText: rgb(239, 239, 239);
   --bodyColor: rgb(240, 240, 246);
   --cardBg: rgb(225, 225, 235);
-  
+}
 
+body {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -76,4 +78,22 @@ input {
 }
 body {
   background: var(--bodyColor);
+}
+
+
+@media screen and (min-width: 1240px) {
+  .container {
+    width: 80%!important;
+    margin: auto!important;
+  }
+
+  .section {
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  body{
+    zoom: 1.7;
+  }
 }
